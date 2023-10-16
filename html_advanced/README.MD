@@ -1,3 +1,3 @@
 # top level header for my readme
 
-this is about html advanced projects to build websites
+this is about html advanced projects
