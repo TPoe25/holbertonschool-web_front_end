@@ -589,25 +589,23 @@ h1, h2, h3, h4, h5, h6 {
     margin: var(--nav-item-margin);
 }
 
-.nav .nav-item .nav-link {
+.nav .nav-link {
     display: block;
-    padding: var(--font-size-medium) 0;
-    padding: calc(var(--font-size-medium) / 2) var(--font-size-medium);
-    transition: color 0.3s ease;
+    padding: 0.5rem 1 rem;
 }
 
-.nav .nav-item .nav-link:hover {
+.nav .nav-link:hover {
     color: var(--color-white);
 }
 
-.nav .nav-item .nav-link::before {
+.nav .nav-link::before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     background-color: var(--color-white);
     width: 0;
-    height: 20%;
+    height: 0.2rem;
 }
 
 .nav .nav-item:hover .nav-link::before {
