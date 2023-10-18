@@ -4,7 +4,7 @@
     --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-/* Setting body font to family base */
+/* Set body font-family to font-family base */
 body {
     font-family: var(--font-family-base);
 }
