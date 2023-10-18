@@ -20,14 +20,12 @@ html {
 }
 
 /* Reset color for section tagline and car category */
-.section-tagline,
-.card-category {
+.section-tagline, .card-category {
     color: var(--color-primary);
 }
 
 /* Reset color for body and anchor */
-body,
-a {
+body, a {
     color: var(--text-color);
 }
 
