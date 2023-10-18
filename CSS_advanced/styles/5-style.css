@@ -19,27 +19,19 @@ html {
     font-size: 62.5%; 
 }
 
-body {
-    color: var(--text-color);
-    font-family: var(--font-family-base);
-}
-
-a {
-    color: var(--text-color);
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-family-title);
-}
-
-.visually-hidden {
-    display: none;
-}
-
+/* Reset color for section tagline and car category */
+.section-tagline,
 .card-category {
     color: var(--color-primary);
 }
 
-.section-tagline {
-    color: var(--color-primary);
+/* Reset color for body and anchor */
+body,
+a {
+    color: var(--text-color);
+}
+
+/* Apply the font-family title to section headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-title);
 }
